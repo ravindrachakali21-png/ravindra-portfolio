@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-
+import profileImage from "../assets/13.jpg";
 export default function About() {
   const [visible, setVisible] = useState(false);
   const ref = useRef(null);
@@ -47,7 +47,7 @@ export default function About() {
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-6">
                   <div className="relative w-20 h-20 rounded-2xl overflow-hidden flex-shrink-0 border-2 border-primary/30 shadow-lg shadow-primary/20">
                     <img
-                      src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=200&h=200&fit=crop&crop=face"
+                      src={profileImage}
                       alt="Chakali Ravindra"
                       className="w-full h-full object-cover"
                       onError={(e) => {
