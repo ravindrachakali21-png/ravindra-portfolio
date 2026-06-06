@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import profileImage from "../assets/13.jpg";
+import profileImage from "../assets/13.png";
 export default function About() {
   const [visible, setVisible] = useState(false);
   const ref = useRef(null);
