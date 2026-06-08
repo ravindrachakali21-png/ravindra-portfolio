@@ -113,16 +113,19 @@ export default function About() {
               </p>
               <div className="flex flex-wrap gap-3">
                 <a
-                  href="mailto:ravindrachakali21@gmail.com"
+                  href="/resume.pdf"
+                  target="_blank"
+                  rel="noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-gradient-to-r from-primary to-secondary text-dark font-display font-bold text-sm hover:scale-105 transition-all duration-300 shadow-lg shadow-primary/20"
                 >
-                  <span>📄</span> Request Resume
+                  <span>👁️</span> View Resume
                 </a>
                 <a
-                  href="tel:9391216535"
+                  href="/resume.pdf"
+                  download="Chakali_Ravindra_Resume.pdf"
                   className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-card border border-border text-gray-300 font-body text-sm hover:border-primary/40 hover:text-primary transition-all duration-300"
                 >
-                  <span>📞</span> Call Me
+                  <span>⬇️</span> Download
                 </a>
               </div>
             </div>
